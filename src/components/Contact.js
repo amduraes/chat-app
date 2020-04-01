@@ -11,7 +11,7 @@ function Contact(props) {
             <div>
                 <h4 className='name'>{props.name}</h4>
                 <div className='status'>
-                    <ins className={props.online ? 'status-online' : 'status-offline'} />
+                    <div className={props.online ? 'status-online' : 'status-offline'} />
                     <p className='status-text'> {props.online ? 'online' : 'offline'} </p>
                 </div>
             </div>
